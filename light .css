@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+
+}
+.switch-container{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.switch-cover{
+    background-color: grey;
+    height: 150px;
+    width: 80px;
+    box-shadow: 0px 0px 5px darkgrey;
+    display: flex;
+    justify-content: space-evenly;
+   
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.screw{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: black;
+
+}
+
+.switch{
+    width: 60%;
+    height: 60%;
+    background: linear-gradient(darkgrey,grey);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 5px solid darkgrey;
+}
+.on{
+   background: linear-gradient(grey, darkgrey);
+   border-top: 5px solid darkgray;
+   border-bottom: 1px solid black;
+}
+
+.buld-container{
+    height: 100vh;
+    width: 40;
+}
+
+.wire{
+    height: 200px;
+    width: 10px;
+    background-color: grey;
+
+}
+
+.wire-connection{
+    width: 15px;
+    height: 15px;
+    background: dimgray;
+    margin: 0 auto;
+   /* align-items: center;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -5px;
+    margin-left: -2px;
+}
+
+.socket-top{
+    height: 20px;
+    width: 40px;
+    background-color: gray;
+    margin-left: -15px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: -5px;
+    border-bottom: 1px solid black;
+}
+
+.socket-bottom{
+    width: 50px;
+    height: 30px;
+    background-color: grey;
+    margin-left: -20px;
+
+}
+
+.socket-back{
+    width: 50px;
+    height: 10px;
+    background: grey;
+    margin-top: 40px;
+    margin-left:-20px ;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.bulb-top{
+    height: 30px;
+    width: 45px;
+    background-color: lightgrey;
+    margin-left: -18px;
+}
+
+.bulb-bottom{
+height: 80px;
+width: 80px;
+background-color: lightyellow;
+align-items: center;
+margin-top: 40px;
+margin-left: -35px ;
+border-radius: 50%;
+margin-top: -25px;
+
+}
+.bulbon{
+    background-color: lightyellow;
+    box-shadow: 0px 10px 200px 20px lightyellow;
+}
